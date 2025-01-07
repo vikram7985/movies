@@ -2,7 +2,12 @@ from flask import Flask
 
 app = Flask(__name__)
 
+@app.route("/")
 
-@app.route("/")
 def hello_world():
-    return "Jisshu bots"
+
+    return "LazyDeveloperr"
+
+if name == 'main':
+
+app.run()
